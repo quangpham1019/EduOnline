@@ -32,5 +32,17 @@
             }
             return null;
         }
+
+        public static void UpdateCategory(int categoryId, Category category)
+        {
+            if (categoryId != category.CategoryId) return;
+
+            var categoryToUpdate = GetCategoryById(categoryId);
+            if (categoryToUpdate != null)
+            {
+                categoryToUpdate.Name = category.Name;
+                categoryToUpdate.Description = category.Description;
+            }
+        }
     }
 }
