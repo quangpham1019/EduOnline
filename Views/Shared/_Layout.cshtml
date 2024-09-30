@@ -29,6 +29,9 @@
         </header>
         @* placeholder for other views to display their own contents *@
         <div class="container">
+            <div>
+                @RenderSection("title")
+            </div>
             @RenderBody()
         </div>
     </body>
