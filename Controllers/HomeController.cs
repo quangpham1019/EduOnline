@@ -6,14 +6,11 @@ namespace EduOnline.Controllers
     {
 
         // Action == Request Handler's Name
-        public string Index()
+        public IActionResult Index()
         {
-            return "Hello World from Action Method";
+            // By default, View() return the .cshtml file at Views/Home/Index.cshtml
+            return View();
         }
 
-        public string Error()
-        {
-            return "I have an error here.";
-        }
     }
 }
