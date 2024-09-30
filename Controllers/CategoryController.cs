@@ -1,7 +1,7 @@
-﻿using EduOnline.Models;
+﻿using AspDOTNET_MVC.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EduOnline.Controllers
+namespace AspDOTNET_MVC.Controllers
 {
     public class CategoryController : Controller
     {

@@ -1,4 +1,4 @@
-﻿namespace EduOnline.Models
+﻿namespace AspDOTNET_MVC.Models
 {
     public class Category
     {

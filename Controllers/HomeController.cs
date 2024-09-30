@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace EduOnline.Controllers
+namespace AspDOTNET_MVC.Controllers
 {
     public class HomeController : Controller
     {

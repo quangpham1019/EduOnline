@@ -1,4 +1,4 @@
-namespace EduOnline
+namespace AspDOTNET_MVC
 {
     public class Program
     {
