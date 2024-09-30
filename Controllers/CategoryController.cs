@@ -7,7 +7,8 @@ namespace EduOnline.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            var categories = CategoryRepository.GetCategories();
+            return View(categories);
         }
 
         // Parameter will become default values if invalid arguments are passed in
